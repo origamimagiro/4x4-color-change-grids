@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Grid Generation</title>
+    <title>4x4 Grid Generation</title>
 </head>
 <body style="background:darkgray">
     <div>
         <span style="font-family:sans-serif">
-            <b>Grid Generation</b>
+            <b>4x4 Grid Generation</b>
         </span>
     </div>
     <div>© Jason S. Ku 2022</div>
     <hr>
     <div>
-        Website for generating all 4x4 rotationally-symmetric color-change
+        Code for generating all 4x4 rotationally-symmetric color-change
         patterns, using the following tiling square units:
     </div>
     <ul>
@@ -58,6 +58,11 @@
         We generate all 6^4 = 1296, and check for duplicates up to reflection and
         color inversion and list each group, one per row. There are 354 such
         patterns.
+    </div>
+    <div>
+        <a href="https://www.flickr.com/photos/danielbrown/">Dan Brown</a> 
+        is attempting to design every such pattern as efficiently as he can, 
+        seamlessly when possible.
     </div>
     <hr>
     <div id="main"></div>
